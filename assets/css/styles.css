@@ -611,3 +611,55 @@ text-transform: capitalize;
 .uppercase {
   text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+/* about me section */
+.section-container-wrapper .section-container section .h2-style {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Roboto Condensed",Sans-Serif;
+    font-weight: 700;
+    color: #000;
+    position: relative;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 50px 0 40px;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.social-icons .fa {
+  font-size: 40px;
+  padding: 0px 10px;
+
+}
+
+.social-icons .fa:hover {
+  color: #32bdbd;
+}
+.drop-cap {
+  text-align: justify;
+}
+.section-heading span {
+  background: #e8e8e9 none repeat scroll 0 0;
+    display: block;
+    height: 2px;
+    margin: 20px auto;
+    width: 50px;
+}
+
+
+.section-container-wrapper .section-container section#about .photo img {
+    width: 100%;
+    max-width: 300px;
+}
