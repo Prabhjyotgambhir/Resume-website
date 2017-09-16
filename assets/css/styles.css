@@ -79,7 +79,7 @@ fieldset {
 }
 
 .section-title h1 {
-    color: #ff2a40;
+    color: #32bdbd;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -148,7 +148,7 @@ fieldset {
 
 /*================================BACK TO TOP ICON / SCROLL TO TOP================================*/
 #topcontrol {
-    background: #ff2a40;
+    background: #32bdbd;
     bottom: 31px!important;
     color: #fff;
     cursor: pointer;
@@ -176,8 +176,7 @@ fieldset {
 
 /*================================BUTTON STYLE================================*/
 .btn-theme-bg {
-    border: 4px double #e8e8e9;
-    border-radius: 0;
+    border: 1px solid #e8e8e9;
     color: #fff;
     font-size: 12px;
     font-weight: 700;
@@ -185,13 +184,12 @@ fieldset {
     padding: 10px 30px;
     text-transform: uppercase;
     -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 .btn-theme-bg:hover,
 .btn-theme-bg:focus {
     color: #fff;
-    background: #ff2a40;
-    border: 4px double #e8e8e9;
+    border: 1px solid #32bdbd;
 }
 .btn-dark-bg {
     border: 4px double #e8e8e9;
@@ -205,7 +203,7 @@ fieldset {
 }
 .btn-dark-bg:hover {
     border: 4px double #e8e8e9;
-    background: #ff2a40;
+    background: #32bdbd;
     color: #fff;
 }
 
@@ -299,12 +297,12 @@ fieldset {
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-  border-bottom: 2px solid transparent;
-}
+
+*/}
 .navbar-default .navbar-nav>li:hover > a,.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #e62b4c;
+    color: #32bdbd;
     background-color: transparent;
-    border-bottom: 2px solid #e62b4c;
+    border-bottom: 1px solid #32bdbd; 
 }
 
 /*Navigation bar in mobile view when navigation bar transparent block*/
@@ -376,15 +374,10 @@ height: 100%;
   background: rgba(38, 39, 50, 0.85) none repeat scroll 0 0;
   height: 100%;
 }
-.welcome-overlay{
-  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
-  height: 100%;
-}
 /*3.1 End home background*/
 /*3.2 text-slider background*/
-.hero-slider {
-    height: 100%;
-}
+
+
 /*3.2 End text-slider background*/
 
 /*3.3 video background*/
@@ -410,40 +403,40 @@ height: 100%;
     height: 640px 
   }
 }
-.hero-text h2 {
+.slider-text h2 {
   color: #fff;
   font-size: 60px;
   line-height: 84px;
-  padding-top: 200px;
+  padding-top: 300px;
   text-transform: capitalize;
 }
 
 @media only screen and (max-width:480px) { 
-    .hero-text h1 {
+    .slider-text h1 {
         font-size: 30px;
         letter-spacing: 2px;
     }
 }
 
 @media only screen and (max-width:360px) { 
-    .hero-text h1 {
+    .slider-text h1 {
         font-size: 28px;
         letter-spacing: 1px;
     }
 }
 
 @media only screen and (max-width:320px) { 
-    .hero-text h1 {
+    .slider-text h1 {
         font-size: 24px;
         letter-spacing: 1px;
     }
 }
 
-.hero-text span { 
-  color: #ff2a40 
+.slider-text span { 
+  color: #32bdbd; 
 }
 
-.hero-text p {
+.slider-text p {
   color: #fff;
   font-size: 22px;
   font-weight: 400;
@@ -521,7 +514,7 @@ text-transform: capitalize;
 }
 
 #home-slider .caption h1 span { 
-  color: #ff2a40 
+  color: #32bdbd 
 }
 
 #home-slider .caption p {
