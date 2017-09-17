@@ -61,8 +61,12 @@ fieldset {
 }
 
 .border-custom {
-  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  box-shadow: 0 0px 3px rgba(255, 255, 255, 1);
   padding: 40px;
+}
+
+.border-custom b {
+  color:white;
 }
 
 /*================================Page section-title================================*/
@@ -683,6 +687,16 @@ letter-spacing: 1px;}
  * --------------------------------------------------------------------------------------*/
  
 
+ #skills {
+  background-image: url('../images/parallax.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+
+
+
 .progress-bar-text {
     font-size: 12px;
     margin-bottom: 10px;
@@ -733,6 +747,10 @@ letter-spacing: 1px;}
 
 .list-icons.green > li > i {
   color: #ff2a40;
+}
+
+.white-color {
+  color: white;
 }
 
 @media (max-width: 767px) {
