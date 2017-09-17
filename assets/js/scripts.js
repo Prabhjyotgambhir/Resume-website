@@ -35,6 +35,8 @@ $(document).ready(function(){
 		$(window).scroll(function() {
 		  if ($(this).scrollTop() > 100) {
 			$('.menu-top').addClass('menu-shrink');
+			$('.logoimg').css({'width':'60px','transition':'1s'});
+			$('.logo').css("bottom","30%");
 		  } else {
 			$('.menu-top').removeClass('menu-shrink');
 		  }
