@@ -112,13 +112,7 @@ fieldset {
   line-height: 30px;
   text-transform: capitalize;
 }
-.section-title span {
-    background: #e8e8e9 none repeat scroll 0 0;
-    display: block;
-    height: 2px;
-    margin: 20px auto;
-    width: 50px;
-}
+
 @media only screen and (max-width:768px) { 
     .section-title span {
         margin: 0 auto;
@@ -651,15 +645,111 @@ text-transform: capitalize;
   text-align: justify;
 }
 .section-heading span {
-  background: #e8e8e9 none repeat scroll 0 0;
+    background: #e8e8e9 none repeat scroll 0 0;
     display: block;
     height: 2px;
     margin: 20px auto;
     width: 50px;
 }
 
-
+#about {
+  overflow: hidden;
+}
 .section-container-wrapper .section-container section#about .photo img {
     width: 100%;
     max-width: 300px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+ *  05.START TESTIMONIAL ONE DESIGN BELOW ABOUT SECTION
+ * -------------------------------------------------------------------------------------*/
+ 
+ #mantra {
+  background: #32bdbd none repeat scroll 0 0;
+}
+
+.single_testimonial h4, .single_testimonial p {  color: #fff;}
+.single_testimonial p {font-weight: 400;
+letter-spacing: 1px;}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------
+ *  04.SKILLS DESIGN
+ * --------------------------------------------------------------------------------------*/
+ 
+
+.progress-bar-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.progress-bar-text span { 
+  float: right 
+}
+
+.progress-bar {
+    background: #c1c1c1 none repeat scroll 0 0;
+    box-shadow: 0 0 0;
+    height: 2px;
+    margin: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.progress-bar > span {
+    background:  #32bdbd none repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    width: 0;
+}
+
+.list-icons {
+  padding-left: 0;
+  margin-left: 36px;
+  list-style-type: none;
+}
+
+.list-icons > li {
+  position: relative;
+}
+
+.list-icons > li > i {
+  position: absolute;
+  left: -36px;
+  width: 36px;
+  top: 2px;
+  text-align: center;
+  color: #232323;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.list-icons.green > li > i {
+  color: #ff2a40;
+}
+
+@media (max-width: 767px) {
+  .padding-top {
+    padding-top: 35px;
+  }
+}
+
+@media (max-width:767px) {
+  .font-icon-hide{
+    display:none;
+  }
+}
+
+/*Other Skills Blog Spot Margin Top in Desktop View Only*/
+@media only screen and (min-width:768px) {
+  .margin-top-desktop {
+    margin-top: 35px;
+  }
 }
