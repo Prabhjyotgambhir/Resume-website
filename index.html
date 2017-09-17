@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="./assets/images/logo.png">
 	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 	<script type="text/javascript" src="./assets/js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.js"></script>
@@ -22,7 +23,16 @@
 	<script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="./assets/js/wow.min.js"></script>
 	<script type="text/javascript" src="./assets/js/scripts.js"></script>
-	
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65873221-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65873221-1');
+</script>
+
 </head>
 
 
@@ -61,8 +71,8 @@
 	          <a data-toggle="collapse" data-target=".navbar-collapse" class="page-scroll" href="#page-top"></a>
 	        </li>
 	        <li><a class="page-scroll" href="#about">About Me</a></li>
-	        <li><a class="page-scroll" href="#skills">Skills</a></li>
 	        <li><a class="page-scroll" href="#mantra">Mantra</a></li>
+	        <li><a class="page-scroll" href="#skills">Skills</a></li>
 	        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
 	        <li><a class="page-scroll" href="#contact">Contact</a></li>
 	      </ul>
@@ -125,7 +135,7 @@
 
 	<section id="about"><!-- Beginning of the about section -->
 				<div class="container section-padding">
-					<div class="row">
+					<div class="row container">
 						<div class="col-sm-10 col-sm-offset-1 wow zoomIn section-heading">
 							<h2>About Me</h2>
 							<span></span>
@@ -342,8 +352,8 @@
 							<img src="assets/images/p-4.jpg" alt="Blockchain"/>
 							<!-- portfolio icon -->
 							<figcaption class="text-center">
-								<h4 style="margin-top: -15px;">TechNeuz</h4>
-								<p>WordPress Blogger Android App</p>
+								<h4 style="margin-top: -15px;">Blockchain</h4>
+								<p>Cryptocurrencies in Trend</p>
 							</figcaption>
 						</figure>	
 					</div>			
@@ -402,6 +412,91 @@
 		</section>
 		<!-- END PORTFOLIO-->	
 		
+
+
+
+		<!--===================================== START PROMOTION =====================================-->
+		<section id="promotion" class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
+						<h2 class="single_promotion">Lets get in touch today...!</h2>
+						
+					</div>
+					<div class="col-md-12 text-center wow">
+					<a href="#contact" class="btn btn-lg btn-theme-bg page-scroll">Get In Touch</a>
+				</div>
+				</div><!--- END ROW -->
+			</div><!--- END CONTAINER -->
+		</section>
+		<!-- END PROMOTION -->
+
+
+
+
+
+		<!--===================================== CONTACT FORM =====================================-->
+		<section id="contact" class="section-padding">
+			<div class="section-title text-center">
+				<div class="container">
+					<div class="row wow zoomIn">
+						<h1>Be in touch</h1>
+						<h4 class="white">For any query shoot me a message :) </h4>
+						<span></span>
+					</div><!--- END ROW -->
+				</div><!--- END CONTAINER -->
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12"> 
+					</div><!--- END COL -->
+					<div class="col-xs-12"> 
+						<div class="contact-form wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
+							<!-- *****  Contact form ***** -->
+							<form action = "mailto:prabhjyotgambhir1994@gmail.com" method="post" enctype="text/plain">
+								<div class="row">
+									<div class="form-group col-md-4">
+										<input type="text" id="user-name" name="name" class="form-control" placeholder="Full Name" required="required">
+									</div>
+									<div class="form-group col-md-4">
+										<input type="email" id="user-email" name="email" class="form-control" placeholder="Email" required="required">
+									</div>
+									<div class="form-group col-md-4">
+										<input type="subject" id="user-subject" name="subject" class="form-control" placeholder="Subject" required="required">
+									</div>
+									<div class="form-group col-md-12">
+										<textarea rows="6" id="user-message" name="message" class="form-control" placeholder="Your Message Here ..." required="required"></textarea>
+									</div>
+									<div class="form-group col-md-12 text-right">
+									  <button type="submit" class="btn btn-lg btn-theme-bg" onclick="alert('Thankyou for your details will get back to you shortly!	')">Send Message</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div><!--- END COL -->
+				</div>
+				<div class="row">
+					
+				</div><!--- END ROW -->
+			</div><!--- END CONTAINER -->
+		</section>
+		<!-- END CONTACT FORM -->
+
+
+
+		<!--===================================== FOOTER BOTTOM SECTION =====================================-->
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row" >
+					<div class="col-lg-12 col-sm-12 col-xs-12 text-center">
+						<p class="f-b">Thankyou for going through my resume :) </p>
+					</div><!-- END COL -->
+				</div><!-- END ROW -->
+			</div><!-- END CONTAINER -->
+		</footer>
+		<!-- END FOOTER BOTTOM SECTION -->
+
+
 
 </body>
 </html>

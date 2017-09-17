@@ -3,6 +3,10 @@
 * 01.GENERAL STYLE
 * ----------------------------------------------------------------------------------------
 */
+
+div a img {
+  display: none;
+}
 body {
     background-color: #fff;
     font-family: "OpenSans",sans-serif;
@@ -72,7 +76,7 @@ fieldset {
 }
 
 .section-padding { 
-  padding: 60px 0 
+  padding: 60px 0;
 }
 
 .section-title { 
@@ -171,6 +175,7 @@ fieldset {
 
 /*================================BUTTON STYLE================================*/
 .btn-theme-bg {
+  background-color: transparent;
     border: 1px solid #e8e8e9;
     color: #fff;
     font-size: 12px;
@@ -186,21 +191,7 @@ fieldset {
     color: #fff;
     border: 1px solid #efb31d;
 }
-.btn-dark-bg {
-    border: 4px double #e8e8e9;
-    border-radius: 0;
-    background: #222;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-}
-.btn-dark-bg:hover {
-    border: 4px double #e8e8e9;
-    background: #efb31d;
-    color: #fff;
-}
+
 
 /*COLOR ICON*/
 .color-icon-1 { 
@@ -341,7 +332,7 @@ fieldset {
     bottom: 33%;
   }
   .slider-text h2 {
-    padding-top: 200px;
+    padding-top: 200px !important;
   }
 }
 
@@ -418,6 +409,10 @@ height: 100%;
     .hero { 
     height: 610px 
   }
+  .logo {
+    position: unset;
+    padding: 0px !important;
+  }
 }
 @media only screen and (max-width:480px) { 
     .hero { 
@@ -448,7 +443,7 @@ height: 100%;
         letter-spacing: 1px;
     }
     .slider-text h2 {
-    padding-top: 200px;
+    padding-top: 200px !important;
   }
   .logo img {
     width: 60px;
@@ -461,6 +456,9 @@ height: 100%;
         font-size: 24px;
         letter-spacing: 1px;
     }
+    .slider-text h2 {
+    padding-top: 200px !important;
+  }
 }
 
 .slider-text span { 
@@ -794,6 +792,11 @@ letter-spacing: 1px;}
 /*----------------------------------------------------------------------------------------
  *  08.START PORTFOLIO DESIGN
  * --------------------------------------------------------------------------------------*/
+
+#portfolio {
+  padding-bottom: 0px;
+}
+
 .portfolio-content {
     margin-right: 0px;
     margin-left: 0px;
@@ -828,8 +831,8 @@ letter-spacing: 1px;}
 /* caption style */
 .portfolio-content figure img {
     z-index: 10;
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
     min-height: 253.31px;
 }
 
@@ -850,3 +853,169 @@ letter-spacing: 1px;}
 .portfolio-content figcaption h4 { 
   color: #222 
 }
+
+
+
+ 
+/* ----------------------------------------------------------------------------------------
+ *  17.START PROMOTION DESIGN / LIKE MY WORKS?
+ * --------------------------------------------------------------------------------------*/ 
+ 
+#promotion {
+  background:#efb31d;
+}
+ 
+.single_promotion {
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width:991px) {
+  .single_promotion {
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+
+.btn-promotion-bg {
+  background: #efb31d none repeat scroll 0 0;
+  border-color: #efb31d;
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 15px 40px;
+  text-transform: uppercase;
+}
+.btn-promotion-bg:hover, .btn-promotion-bg:focus {
+  color:#e8e8e9;
+}
+ 
+#promotion .btn-theme-bg:hover,
+#promotion .btn-theme-bg:focus {
+    color: #fff;
+    border: 1px solid black;
+}
+
+
+/* ----------------------------------------------------------------------------------------
+ *  19.START CONTACT DESIGN
+ * ---------------------------------------------------------------------------------------*/
+.contact-form { 
+  /*margin-top: 50px*/
+}
+
+input.form-control {
+    background: #fff0 none repeat scroll 0 0;
+    border: 1px solid #e8e8e9;
+    border-radius: 0 !important;
+    color: white;
+    height: 45px;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #e8e8e9;
+    color: white;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+    border: 1px solid #efb31d;
+    box-shadow: none;
+    outline: 0 none;
+}
+.single-address-one {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: 4px double #00c8ab;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+.single-address-two {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: 4px double #a182d2;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+.single-address-three {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: 4px double #ff4c83;
+    padding: 15px 0;
+}
+.media .fa {
+    color: #ff2a40;
+    font-size: 30px;
+    line-height: 25px;
+    padding: 22px;
+    width: 70px;
+}
+.media-heading {
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.media-heading { 
+  font-size: 14px 
+  }
+  
+}
+
+
+.text-right {
+  text-align: right;  
+}
+
+
+#contact {
+
+  background-image: url('../images/parallax2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+/*----------------------------------------------------------------------------------------
+* 22.START FOOTER BOTTOM DESIGN
+* --------------------------------------------------------------------------------------*/
+#footer { 
+  background: black;
+  padding: 10px 0px;
+}
+
+#footer h2 { 
+  color: #fff 
+}
+
+#footer p {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.footer { 
+  background-color: #09121b;
+}
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* .22.END FOOTER BOTTOM DESIGN
+* ----------------------------------------------------------------------------------------
+*/
