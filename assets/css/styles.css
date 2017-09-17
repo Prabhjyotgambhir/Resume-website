@@ -65,9 +65,6 @@ fieldset {
   padding: 40px;
 }
 
-.border-custom b {
-  color:white;
-}
 
 /*================================Page section-title================================*/
 .no-padding { 
@@ -295,7 +292,7 @@ fieldset {
     
 }
 .top-nav-collapse.navbar-default {
-       background-color: #32bdbd;/*rgba(0, 0, 0, 0.95);*/  /*When navigation bar is scroll and stretch to top color */
+       background-color: black;/*rgba(0, 0, 0, 0.95);*/  /*When navigation bar is scroll and stretch to top color */
  
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -770,4 +767,67 @@ letter-spacing: 1px;}
   .margin-top-desktop {
     margin-top: 35px;
   }
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------
+ *  08.START PORTFOLIO DESIGN
+ * --------------------------------------------------------------------------------------*/
+.portfolio-content {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.portfolio-content .portfolio-item {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.portfolio-item figure {
+    background-color: #ccc;
+    margin: 0;
+    position: relative;
+}
+
+.portfolio-item figure img {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.portfolio-item figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 52px;
+}
+
+/* caption style */
+.portfolio-content figure img {
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.portfolio-content figure:hover img {
+    -webkit-transform: translateY(-80px);
+    -ms-transform: translateY(-80px);
+    transform: translateY(-80px);
+}
+
+/* caption icon */
+.portfolio-content figcaption {
+    bottom: 0;
+    height: 100px;
+    top: auto;
+    width: 100%;
+    background: #fff;
+}
+.portfolio-content figcaption h4 { 
+  color: #222 
 }
